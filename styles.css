@@ -198,8 +198,22 @@ body {
 }
 
 .message-icon-wrapper {
-    position: relative;
+    background-color: rgba(0, 84, 149, 0.1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 20px;
+}
+
+/* Custom Gray Shadow Block */
+.custom-gray-shadow-block {
+    box-shadow: 0 0 15px rgba(0,0,0,0.15); /* Gray shadow */
+    border: 1px solid #d0d0d0; /* Light gray border */
+    border-radius: 8px;
+    background-color: white;
 }
 
 .message-badge {
@@ -287,4 +301,32 @@ body {
 /* Utility */
 .text-blue {
     color: #005495;
+}
+
+/* Bill Data Table Caption */
+.bill-data-caption {
+    caption-side: top;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #005495;
+    text-align: left;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #FFD200;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.custom-footer-blue {
+    background-color: #005495; /* TECO Blue */
+    color: white;
+}
+
+.text-yellow {
+    color: #FFD200 !important;
+}
+
+.footer-logo {
+    max-height: 50px;
 }
