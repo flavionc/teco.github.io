@@ -1,0 +1,290 @@
+/* Custom Styles to match the reference image exactly */
+
+/* General Resets/Tweaks */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Area */
+.custom-header-yellow {
+    background-color: #FFD200; /* Bright yellow from image */
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.interactive-bill-title {
+    color: #005495; /* TECO Blue */
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.user-greeting {
+    color: #005495;
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-align: right;
+}
+
+.user-greeting a {
+    color: #0099FF;
+    text-decoration: none;
+}
+
+/* Account Details Section */
+.account-details-header {
+    background-color: #285C97; /* Darker blue header */
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.account-details-body {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    font-size: 0.95rem;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.account-label {
+    font-weight: bold;
+    color: #000;
+    min-width: 85px;
+    display: inline-block;
+}
+
+.account-value {
+    color: #333;
+    line-height: 1.4;
+}
+
+.status-active {
+    color: #28a745; /* Green */
+    font-weight: bold;
+}
+
+/* Main Bill Card */
+.bill-card {
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    position: relative;
+    /* Abstract background simulation - Curved gradients */
+    background: 
+        radial-gradient(circle at 100% 0%, rgba(255, 210, 0, 0.2) 0%, rgba(255, 210, 0, 0.1) 30%, transparent 60%),
+        radial-gradient(circle at 0% 100%, rgba(0, 84, 149, 0.08) 0%, transparent 50%),
+        linear-gradient(135deg, #ffffff 0%, #fdfdfd 100%);
+    padding-bottom: 25px;
+}
+
+.bill-title {
+    color: #005495;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 35px;
+}
+
+.bill-amount {
+    color: #005495;
+    font-weight: bold;
+    font-size: 6rem; /* Larger 0 */
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 15px 0;
+    letter-spacing: -2px;
+}
+
+.bill-cents {
+    font-size: 3rem;
+    margin-top: 8px;
+    vertical-align: top;
+}
+
+.bill-due-date {
+    color: #005495;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.btn-pay-now {
+    background-color: #005495;
+    color: white;
+    font-weight: bold;
+    padding: 12px 80px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    transition: background-color 0.2s;
+}
+
+.btn-pay-now:hover {
+    background-color: #003d6b;
+    color: white;
+    text-decoration: none;
+}
+
+.bill-divider {
+    height: 2px;
+    background-color: #005495;
+    width: 90%;
+    margin: 35px auto 20px;
+    opacity: 0.8;
+}
+
+.previous-payment-text {
+    color: #000;
+    font-size: 1.05rem;
+    padding: 0 30px;
+    line-height: 1.5;
+}
+
+/* Chat Now Tab */
+.chat-now-tab {
+    position: absolute;
+    right: 0;
+    top: 65%; /* Adjusted position */
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    padding: 15px 8px;
+    border-radius: 8px 0 0 8px;
+    box-shadow: -2px 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    width: 45px;
+}
+
+.chat-now-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 12px;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+}
+
+/* Important Message Card */
+.message-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: none;
+    margin-top: 25px;
+}
+
+.message-card-body {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.message-icon-wrapper {
+    position: relative;
+    margin-right: 20px;
+}
+
+.message-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.message-title {
+    color: #005495;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-right: auto; /* Pushes everything else to the right */
+}
+
+.message-content {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.chevron-icon {
+    color: #005495;
+    font-size: 1.2rem;
+    background-color: #eef5fa;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+/* New Styles for Prior Statements */
+.btn-outline-teco {
+    background-color: transparent;
+    border: 2px solid #005495;
+    color: #005495;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+.btn-outline-teco:hover {
+    background-color: #005495;
+    color: white;
+    text-decoration: none;
+}
+
+.link-teco-underline {
+    color: #005495;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #005495;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.link-teco-underline:hover {
+    color: #003d6b;
+    border-color: #003d6b;
+    text-decoration: none;
+}
+
+/* Overrides for existing classes */
+.dashboard-heading {
+    display: none !important; 
+}
+
+/* Utility */
+.text-blue {
+    color: #005495;
+}
