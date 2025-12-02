@@ -11,13 +11,13 @@
   "description": "Log in to your online account with Tampa Electric and Peoples Gas.",
   "icons": [
     {
-      "src": "images/icon.png",
+      "src": "images/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "images/icon.png",
+      "src": "images/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -25,14 +25,14 @@
   ],
   "screenshots": [
     {
-      "src": "images/icon.png",
+      "src": "images/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "wide",
       "label": "TECO App Home Screen"
     },
     {
-      "src": "images/icon.png",
+      "src": "images/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
