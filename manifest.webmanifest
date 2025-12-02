@@ -1,11 +1,14 @@
 {
+  "id": "/teco.github.io/",
   "name": "TECO App",
   "short_name": "TECO",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
+  "description": "Log in to your online account with Tampa Electric and Peoples Gas.",
   "icons": [
     {
       "src": "images/icon.png",
@@ -18,6 +21,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "TECO App Home Screen"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "TECO App Mobile View"
     }
   ]
 }
