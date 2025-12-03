@@ -9,6 +9,11 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "description": "Log in to your online account with Tampa Electric and Peoples Gas.",
+  "categories": [
+    "utilities",
+    "finance"
+  ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "images/icon-192.png",
